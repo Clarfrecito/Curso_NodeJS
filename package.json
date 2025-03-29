@@ -1,0 +1,29 @@
+{
+  "name": "curso_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-OS_Info.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clarfrecito/Curso_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clarfrecito/Curso_NodeJS/issues"
+  },
+  "homepage": "https://github.com/Clarfrecito/Curso_NodeJS#readme",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends":"standard"
+  }
+}
