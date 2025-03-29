@@ -1,7 +1,7 @@
-function suma (a,b){
-    return a + b;
+function suma (a, b) {
+  return a + b
 }
-//CommomJS Module Exporting
+// CommomJS Module Exporting
 module.exports = {
-    suma
-};
+  suma
+}
