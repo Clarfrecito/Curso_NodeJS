@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "nodemon Clase_2/1-Http.js",
+    "dev:2": "nodemon Clase_2/2-Routing.js",
+    "dev:3" : "node --watch Clase_2/3-Express.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +21,12 @@
   },
   "homepage": "https://github.com/Clarfrecito/Curso_NodeJS#readme",
   "devDependencies": {
-    "standard": "^17.1.2"
+    "nodemon": "^3.1.9"
   },
   "eslintConfig": {
-    "extends":"standard"
+    "extends": "standard"
+  },
+  "dependencies": {
+    "express": "5.1.0"
   }
 }
